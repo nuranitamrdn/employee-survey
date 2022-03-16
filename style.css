@@ -1,7 +1,33 @@
 html{
     background-color: grey;
+    text-align: justify;
 }
 
-h1::before {
-    content: url(anne.jpeg);
+table{
+    font-size: 16px;
 }
+
+/*unvisited link*/
+a:link{
+    color: beige;
+}
+
+/*visited link*/
+a:visited{
+    color: white;
+}
+
+/*mouse over link*/
+a:hover{
+    color: beige;
+}
+
+/*selected link*/
+a:active{
+    background-color: blueviolet;
+}
+
+a.highlight:hover {
+    color: #ff0000;
+    font-size: 22px;
+    }
